@@ -101,10 +101,10 @@ class BankAccount {
 
 public class ATMApp {
     public static void main(String[] args) {
-        // Create a new bank account with an initial balance
+        //  Creating a new bank account with an initial balance
         BankAccount account = new BankAccount(1000.0);
 
-        // Create a new ATM and associate it with the bank account
+        //Creating a new ATM and associate it with the bank account
         ATM atm = new ATM(account);
 
         // Handle user input
